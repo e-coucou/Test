@@ -6,10 +6,15 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		07DA7F95172C5969008CF28C /* Test.py */ = {isa = PBXFileReference; explicitFileType = text.script.python; fileEncoding = 4; path = Test.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		07DA7F8A172C5475008CF28C = {
 			isa = PBXGroup;
 			children = (
+				07DA7F95172C5969008CF28C /* Test.py */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +120,7 @@
 		07DA7F93172C5475008CF28C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				DEBUGGING_SYMBOLS = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -127,6 +133,7 @@
 		07DA7F94172C5475008CF28C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -152,6 +159,7 @@
 				07DA7F94172C5475008CF28C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
